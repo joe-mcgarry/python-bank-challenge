@@ -8,3 +8,6 @@ class BankAccount:
 
     def get_statement(self):
         return self.transactions
+
+    def deposit(self, amount):
+        self.balance += amount
